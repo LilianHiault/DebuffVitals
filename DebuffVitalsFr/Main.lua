@@ -6,19 +6,19 @@ This plugin is a tool to help players track mobs and specific effects on mobs.  
 ]]
 
 import "Turbine.Gameplay"
-import "Turbine.UI" 
+import "Turbine.UI"
 import "Turbine.UI.Lotro"
-import "Grimmerthan.DebuffVitals.Constants"
-import "Grimmerthan.DebuffVitals.CommandLine"
-import "Grimmerthan.DebuffVitals.EffectFrame"
-import "Grimmerthan.DebuffVitals.Handlers"
-import "Grimmerthan.DebuffVitals.LoadSave"
-import "Grimmerthan.DebuffVitals.Menu"
-import "Grimmerthan.DebuffVitals.OptionsPanel"
-import "Grimmerthan.DebuffVitals.TargetFrame"
-import "Grimmerthan.DebuffVitals.TargetFrameUtilities"
-import "Grimmerthan.DebuffVitals.Utilities"
-import "Grimmerthan.DebuffVitals.VindarPatch"
+import "Lylian.DebuffVitalsFr.Constants"
+import "Lylian.DebuffVitalsFr.CommandLine"
+import "Lylian.DebuffVitalsFr.EffectFrame"
+import "Lylian.DebuffVitalsFr.Handlers"
+import "Lylian.DebuffVitalsFr.LoadSave"
+import "Lylian.DebuffVitalsFr.Menu"
+import "Lylian.DebuffVitalsFr.OptionsPanel"
+import "Lylian.DebuffVitalsFr.TargetFrame"
+import "Lylian.DebuffVitalsFr.TargetFrameUtilities"
+import "Lylian.DebuffVitalsFr.Utilities"
+import "Lylian.DebuffVitalsFr.VindarPatch"
 
 -- ------------------------------------------------------------------------
 -- Doing Stuff!
@@ -38,7 +38,7 @@ CurrentTarget = nil
 -- Any frames loaded from the root of the save file
 loadedFrames = {}
 
--- The current set of frames 
+-- The current set of frames
 TargetFrames = {}
 
 -- The collection of sets of frames.  These can be manipulated (activate, delete, etc).
@@ -52,7 +52,7 @@ FrameMenu = TargetFrameMenu()
 
 -- Create the list of known effects
 for k = 1, #DEFAULT_EFFECTS do
-    TrackedEffects[#TrackedEffects + 1] = {DEFAULT_EFFECTS[k][1], DEFAULT_EFFECTS[k][2], DEFAULT_EFFECTS[k][3], 
+    TrackedEffects[#TrackedEffects + 1] = {DEFAULT_EFFECTS[k][1], DEFAULT_EFFECTS[k][2], DEFAULT_EFFECTS[k][3],
                                            DEFAULT_EFFECTS[k][4], DEFAULT_EFFECTS[k][5]}
 end
 
@@ -60,7 +60,7 @@ end
 OP = OptionsPanel()
 
 LocalUser = Turbine.Gameplay.LocalPlayer.GetInstance()
-AddCallback(LocalUser, "TargetChanged", TargetChangeHandler); 
+AddCallback(LocalUser, "TargetChanged", TargetChangeHandler);
 
 -- The subset of effects that are 'interesting' (enabled in options panel and
 --      considered in a target frame)
