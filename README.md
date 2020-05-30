@@ -9,20 +9,20 @@ Ce plugin est une traduction française de [DebuffVitals](https://github.com/gri
 
 * * *
 
-Traductions (0/155) :
-- Commun : `0/6`
-- Beornide : `0/13`
-- Cambrioleur : `0/13`
-- Capitaine : `0/8`
-- Champion : `0/8`
-- Gardien : `0/8`
-- Chasseur : `0/12`
-- Maître du savoir : `0/25`
-- Ménestrel : `0/8`
-- Gardien des runes : `0/14`
-- Sentinelle : `0/30`
-- Effets de joueur : `0/10`
+Traductions `(22/155)` :
 
+-   Commun : `5/6`
+-   Beornide : `0/13`
+-   Cambrioleur : `0/13`
+-   Capitaine : `0/8`
+-   Champion : `7/8`
+-   Gardien : `0/8`
+-   Chasseur : `0/12`
+-   Maître du savoir : `0/25`
+-   Ménestrel : `0/8`
+-   Gardien des runes : `0/14`
+-   Sentinelle : `0/30`
+-   Effets de joueur : `10/10`
 
 ## FAQ
 
