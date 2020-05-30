@@ -1,11 +1,28 @@
 # DebuffVitalsFr
 
-**DebuffVitalsFr** est un plugin pour *le Seigneur des Anneaux Online* qui permet de traquer plusieurs cibles et de garder un oeil sur leur moral, puissance, corruptions et effets spécifiques.  
+**DebuffVitalsFr** est un plugin pour _le Seigneur des Anneaux Online_ qui permet de traquer plusieurs cibles et de garder un oeil sur leur moral, puissance, corruptions et effets spécifiques.  
 Ce plugin est une traduction française de [DebuffVitals](https://github.com/grimmerthan/DebuffVitals), un plugin créé par Grimmerthan. La version française a pour objectif premier de fonctionner avec le client LOTRO français.
 
----
+* * *
 
-**DebuffVitalsFr** is a french translated version of the plugin [DebuffVitals](https://github.com/grimmerthan/DebuffVitals) from Grimmerthan for *the Lord of the Rings Online*. My goal is to translate effects to work with the french game client.
+**DebuffVitalsFr** is a french translated version of the plugin [DebuffVitals](https://github.com/grimmerthan/DebuffVitals) from Grimmerthan for _the Lord of the Rings Online_. My goal is to translate effects to work with the french game client.
+
+* * *
+
+Traductions (0/155) :
+- Commun : `0/6`
+- Beornide : `0/13`
+- Cambrioleur : `0/13`
+- Capitaine : `0/8`
+- Champion : `0/8`
+- Gardien : `0/8`
+- Chasseur : `0/12`
+- Maître du savoir : `0/25`
+- Ménestrel : `0/8`
+- Gardien des runes : `0/14`
+- Sentinelle : `0/30`
+- Effets de joueur : `0/10`
+
 
 ## FAQ
 
@@ -14,9 +31,10 @@ Ce plugin est une traduction française de [DebuffVitals](https://github.com/gri
 Pour l'instant le plugins à toujours les mêmes soucis que l'original pâr rapport au client français, il n'est donc pas pertinent de l'installer.  
 Dans le dossier `The Lord of the Rings Online/Plugins` créer un dossier `Lylian` puis déplacez y le dossier `DebuffVitalsFR` et le fichier `DebuffVitalsFr.plugin`.  
 Ce plugin est un plugin différent de DebuffVitals et peut être installé indépendamment :
-- le plugin original n'est pas requis
-- il ne remplacera pas le plugin original
-- vous pouvez utiliser les deux séparément ou en même temps
+
+-   le plugin original n'est pas requis
+-   il ne remplacera pas le plugin original
+-   vous pouvez utiliser les deux séparément ou en même temps
 
 ### Pourquoi une verison française ?
 
