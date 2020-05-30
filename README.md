@@ -42,7 +42,7 @@ J'ai besoin des traductions du jeu français pour la liste des effets dans `Debu
 Si toucher au code vous fait peur vous pouvez aussi m'aider en vous connectant au jeu en français, afficher les infobulles des différents effets (la touche `H` permet de les fixer) et enregistrer une capture d'écran. La liste des effets à traduire sont dans `DebuffVitalsFr/Constants.lua` et le [wiki anglais](https://lotro-wiki.com/index.php/Skills#Class_Skills) vous permettra retrouver les correspondances. Vous pouvez me joindre sur Discord : `Lylian#0912`.  
 Mon but est uniquement de proposer une traduction pour faire fonctionner le plugin sur le client français et non améliorer ou corriger le plugin. Je ne pourrais pas vous aider si vous rencontrez des bugs. De plus je ne suis pas développeur et la langage LUA m'est pour l'instant étrangé donc il se peut que je fasse des erreurs (même les plus bêtes !).
 
-### Pourquoi une verison française ?
+### Pourquoi une version française ?
 
 DebuffVitals recherche parmis les effets de la cible les noms d'une liste d'effets traçables. Les noms des effets étant en anglais lorsque le plugin cherche l'effet, son nom dans le jeu est en français et ne correspond donc pas à celui recherché. Par exemple pour traquer l'effet "Enraciné", le plugin cherche le nom "Root".
 
