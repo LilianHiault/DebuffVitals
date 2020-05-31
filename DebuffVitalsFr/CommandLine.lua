@@ -9,9 +9,9 @@ function dvCommand:Execute(cmd, args)
     local arguments = {}
 
     if DEBUG_ENABLED then Turbine.Shell.WriteLine("#: "..tostring(#args).." args : "..tostring(args)); end
-      
-    for argument in args:gmatch("%S+") do   
-        table.insert(arguments, argument) 
+
+    for argument in args:gmatch("%S+") do
+        table.insert(arguments, argument)
     end
 
     if DEBUG_ENABLED then Turbine.Shell.WriteLine("#: "..tostring(#arguments)); end
@@ -20,7 +20,7 @@ function dvCommand:Execute(cmd, args)
         if arguments[1] == "list" then
             self:List()
         elseif arguments[1] == "save" then
-            SaveSettings()            
+            SaveSettings()
         else
             self:GetHelp()
         end
@@ -46,10 +46,10 @@ end
 -- ------------------------------------------------------------------------
 function dvCommand:List()
     local SettingsNames = {}
-    for k, v in pairs (TargetFrameSets) do              
-        SettingsNames[#SettingsNames+1] = k      
+    for k, v in pairs (TargetFrameSets) do
+        SettingsNames[#SettingsNames+1] = k
     end
-    table.sort(SettingsNames) 
+    table.sort(SettingsNames)
     Turbine.Shell.WriteLine("dbv - stored configurations: "..tostring(#SettingsNames));
     for k, v in pairs (SettingsNames) do
         Turbine.Shell.WriteLine("  "..tostring(v));
@@ -57,10 +57,10 @@ function dvCommand:List()
 end
 
 -- ------------------------------------------------------------------------
--- Show help 
+-- Show help
 -- ------------------------------------------------------------------------
 function dvCommand:GetHelp()
-    Turbine.Shell.WriteLine("usage: /debuffvitals|dbv [save <name> | list | load <name> | delete <name>] | help | save settings");
+    Turbine.Shell.WriteLine("usage: /debuffvitalsfr|dbvfr [save <name> | list | load <name> | delete <name>] | help | save settings");
 end
 
 -- ------------------------------------------------------------------------
@@ -81,7 +81,7 @@ end
 function dvCommand:SaveConfig(SetName)
     TargetFrameSets[SetName] = CaptureSettings()
     Turbine.Shell.WriteLine("dbv - saved configuration as '"..tostring(SetName).."'");
-    SaveSettings()    
+    SaveSettings()
 end
 
 -- ------------------------------------------------------------------------
@@ -95,4 +95,4 @@ function dvCommand:Delete(SetName)
     end
 end
 
-Turbine.Shell.AddCommand( "debuffvitals;dbv", dvCommand );
+Turbine.Shell.AddCommand( "debuffvitalsfr;dbvfr", dvCommand );

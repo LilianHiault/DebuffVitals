@@ -36,6 +36,19 @@ Ce plugin est un plugin différent de DebuffVitals et peut être installé indé
 -   il ne remplacera pas le plugin original
 -   vous pouvez utiliser les deux séparément ou en même temps
 
+### Commandes
+
+J'ai changé les commandes de gestion de profils pour pouvoir utiliser le plugin en français en en anglais en même temps. Les commandes sont donc accessible via `/dbvfr` ou `/debuffvitalsfr` (au lieu de `dbv` ou `debuffvitals`).  
+Les autres commandes restent identiques et vous pouvez les obtenir en jeu grâce à `/dbvfr help` ou `/debuffvitalsfr help` dans la fenêtre de discussion.
+Voici une liste des commandes :
+
+-   `save <nom>` : sauvegarde le profil actuel avec son <nom>
+-   `list` : affiche la liste des profils enregistrés
+-   `load <nom>` : charger le profil <nom>
+-   `delete <nom>` : supprime le profile <nom>
+-   `help` : affiche la liste des commandes
+-   `save settings` : sauvegarde les paramètres
+
 ### Comment aider ?
 
 J'ai besoin des traductions du jeu français pour la liste des effets dans `DebuffVitalsFr/Constants.lua`. N'hésitez pas à compléter ces traductions et à envoyer une pull request.  
@@ -45,7 +58,6 @@ Mon but est uniquement de proposer une traduction pour faire fonctionner le plug
 ### Pourquoi une version française ?
 
 DebuffVitals recherche parmis les effets de la cible les noms d'une liste d'effets traçables. Les noms des effets étant en anglais lorsque le plugin cherche l'effet, son nom dans le jeu est en français et ne correspond donc pas à celui recherché. Par exemple pour traquer l'effet "Enraciné", le plugin cherche le nom "Root".
-
 
 ## Me contacter
 
