@@ -9,14 +9,14 @@ Ce plugin est une traduction française de [DebuffVitals](https://github.com/gri
 
 * * *
 
-Traductions `(22/155)` :
+Traductions `(30/155)` :
 
 -   Commun : `5/6`
 -   Beornide : `0/13`
 -   Cambrioleur : `0/13`
 -   Capitaine : `0/8`
 -   Champion : `7/8`
--   Gardien : `0/8`
+-   Gardien : `8/8`
 -   Chasseur : `0/12`
 -   Maître du savoir : `0/25`
 -   Ménestrel : `0/8`
@@ -28,7 +28,7 @@ Traductions `(22/155)` :
 
 ### Comment l'installer ?
 
-Pour l'instant toutes les traductions ne sont pas finies. Si vous souhaitez l'utiliser je vous pouvez voir ci-dessus l'avancement des traductions classe par classe.  
+Pour l'instant toutes les traductions ne sont pas finies. Si vous souhaitez l'utiliser je vous  pouvez voir ci-dessus l'avancement des traductions classe par classe.  
 Dans le dossier `The Lord of the Rings Online/Plugins` créer un dossier `Lylian` puis déplacez y le dossier `DebuffVitalsFR` et le fichier `DebuffVitalsFr.plugin` présents sur [GitHub](https://github.com/LilianHiault/DebuffVitalsFr.git).  
 Ce plugin est un plugin différent de DebuffVitals et peut être installé indépendamment :
 
