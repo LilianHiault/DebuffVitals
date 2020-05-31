@@ -9,11 +9,11 @@ Ce plugin est une traduction française de [DebuffVitals](https://github.com/gri
 
 * * *
 
-Traductions `(30/155)` :
+Traductions `(40/155)` :
 
--   Commun : `5/6`
+-   Commun : `6/6`
 -   Beornide : `0/13`
--   Cambrioleur : `0/13`
+-   Cambrioleur : `9/13`
 -   Capitaine : `0/8`
 -   Champion : `7/8`
 -   Gardien : `8/8`
