@@ -9,7 +9,7 @@ DEFAULT_FREEP_EFFECTS =  {
     {"Commun",      "Attaque en force",                         1, 0},
     {"Commun",      "Récupération",                             0, 0},
     {"Commun",      "Etourdi",                                  1, 0, "Etourdi"},
-    {"Commun",      "Rooted",                                   1, 2, "Enraciné"},
+    {"Commun",      "Enraciné",                                 1, 2, "Enraciné"},
     {"Commun",      "Immunité contre les états temporaires",    1, 0},
     {"Beornide",    "Bash",                                     0, 0},
     {"Beornide",    "Bee Swarm",                                0, 0},
