@@ -3,7 +3,7 @@
   <Information>
     <Name>DebuffVitalsFr</Name>
     <Author>Lylian</Author>
-    <Version>1.3.4</Version>
+    <Version>v2.3.4-beta.0</Version>
     <Description>DebuffVitalsFr permet de traquer plusieurs cibles et de garder un oeil sur leur moral, puissance, corruptions et effets spécifiques.</Description>
   </Information>
   <Package>Lylian.DebuffVitalsFr.Main</Package>
