@@ -6,17 +6,17 @@ local DEFAULT_EFFECTS = DEFAULT_EFFECTS
 function LoadSettings(name)
     if DEBUG_ENABLED then Turbine.Shell.WriteLine("Entering LoadEffects...") end
 
-    local settings = PatchDataLoad(Turbine.DataScope.Character, "DebuffVitals", name);
+    local settings = PatchDataLoad(Turbine.DataScope.Character, "DebuffVitalsFr", name);
 
-    if settings then 
+    if settings then
         ActivateSettings(settings)
-        if settings.TargetFrameSets ~= nil then  
+        if settings.TargetFrameSets ~= nil then
             TargetFrameSets = settings.TargetFrameSets
-        end   
+        end
     end
 
     if DEBUG_ENABLED then Turbine.Shell.WriteLine("Exiting LoadEffects...") end
-end    
+end
 
 -- ------------------------------------------------------------------------
 -- Activates loaded settings
@@ -29,14 +29,14 @@ function ActivateSettings(settings)
     if settings.ControlHeight then
         ControlHeight = settings.ControlHeight
     end
-    
+
     if settings.EffectsModulus then
         EffectsModulus = settings.EffectsModulus
-    end   
+    end
 
     if settings.LockedPosition ~= nil then
         LockedPosition = settings.LockedPosition
-    end 
+    end
 
     if settings.SaveFramePositions ~= nil then
         SaveFramePositions = settings.SaveFramePositions
@@ -55,9 +55,9 @@ function SaveSettings(name)
 
     local currentSettings = CaptureSettings()
     currentSettings.TargetFrameSets = TargetFrameSets
-    
-    PatchDataSave(Turbine.DataScope.Character, "DebuffVitals", currentSettings, name);
-    
+
+    PatchDataSave(Turbine.DataScope.Character, "DebuffVitalsFr", currentSettings, name);
+
     if DEBUG_ENABLED then Turbine.Shell.WriteLine("Exiting SaveSettings...") end
 end
 
@@ -84,6 +84,6 @@ function CaptureSettings()
             frame.EnabledEffectsToggles[#frame.EnabledEffectsToggles + 1] = toggle
         end
         currentsettings.Frames[#currentsettings.Frames + 1] = frame
-    end    
+    end
     return currentsettings
 end

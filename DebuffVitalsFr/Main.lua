@@ -3,6 +3,9 @@
 This plugin is a tool to help players track mobs and specific effects on mobs.  Reference page is :
     https://www.lotrointerface.com/downloads/fileinfo.php?id=1015
 
+Vous pouvez trouver la version française ici :
+    https://github.com/LilianHiault/DebuffVitalsFr
+
 ]]
 
 import "Turbine.Gameplay"
