@@ -1,7 +1,7 @@
 # DebuffVitalsFr
 
 **DebuffVitalsFr** est un plugin pour _le Seigneur des Anneaux Online_ qui permet de traquer plusieurs cibles et de garder un oeil sur leur moral, puissance, corruptions et effets spécifiques.  
-Ce plugin est une traduction française de [DebuffVitals](https://github.com/grimmerthan/DebuffVitals), un plugin créé par Grimmerthan. La version française a pour objectif premier de fonctionner avec le client LOTRO français.
+Ce plugin est une traduction française de [DebuffVitals](https://github.com/grimmerthan/DebuffVitals), un plugin créé par Grimmerthan. La version française a pour objectif de fonctionner avec le client LOTRO français et ne fonctionne pas si le jeu est dans une autre langue.
 
 * * *
 
@@ -9,7 +9,7 @@ Ce plugin est une traduction française de [DebuffVitals](https://github.com/gri
 
 * * *
 
-Traductions `(40/155)` :
+Traductions `(64/155)` :
 
 -   Commun : `6/6`
 -   Beornide : `0/13`
@@ -18,7 +18,7 @@ Traductions `(40/155)` :
 -   Champion : `7/8`
 -   Gardien : `8/8`
 -   Chasseur : `0/12`
--   Maître du savoir : `0/25`
+-   Maître du savoir : `24/25`
 -   Ménestrel : `0/8`
 -   Gardien des runes : `0/14`
 -   Sentinelle : `0/30`
