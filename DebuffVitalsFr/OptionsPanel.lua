@@ -88,7 +88,7 @@ function OptionsPanel:Constructor ()
     self.ModulusScrollBar:SetOrientation( Turbine.UI.Orientation.Horizontal )
     self.ModulusScrollBar:SetBackColor (Turbine.UI.Color.White)
     self.ModulusScrollBar.ValueChanged = function()
-        self.ModulusTitle:SetText("Refresh Throttling : "..tostring(self.ModulusScrollBar:GetValue()))
+        self.ModulusTitle:SetText("Limiter l'actualisation : "..tostring(self.ModulusScrollBar:GetValue())) -- "Refresh Throttling"
     end
 
     self.ModulusTitle = Turbine.UI.Label()
