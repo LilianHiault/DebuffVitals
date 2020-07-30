@@ -17,7 +17,7 @@ Traductions `(64/155)` :
 -   Capitaine : `0/8`
 -   Champion : `7/8`
 -   Gardien : `8/8`
--   Chasseur : `0/12`
+-   Chasseur : `11/12`
 -   Maître du savoir : `24/25`
 -   Ménestrel : `0/8`
 -   Gardien des runes : `0/14`
