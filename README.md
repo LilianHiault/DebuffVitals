@@ -9,7 +9,7 @@ Ce plugin est une traduction française de [DebuffVitals](https://github.com/gri
 
 * * *
 
-Traductions `(93/155)` :
+Traductions `(94/155)` :
 
 -   Commun : `6/6`
 -   Béornide : `5/13`
@@ -18,7 +18,7 @@ Traductions `(93/155)` :
 -   Champion : `7/8`
 -   Gardien : `8/8`
 -   Chasseur : `11/12`
--   Maître du savoir : `24/25`
+-   Maître du savoir : `25/25`
 -   Ménestrel : `3/8`
 -   Gardien des runes : `10/14`
 -   Sentinelle : `0/30`

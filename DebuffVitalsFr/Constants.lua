@@ -86,7 +86,7 @@ DEFAULT_FREEP_EFFECTS = {
     {"Maitre du savoir", "Connaissance du maître du savoir",    0, 0},
     {"Maitre du savoir", "Lueur de la nature",                  0, 1},
     {"Maitre du savoir", "Lumière de la nature",                0, 0},
-    {"Maitre du savoir", "Ranged Critical Chance",              0, 0},
+    {"Maitre du savoir", "Chances de critique à distance",      0, 0},
     {"Maitre du savoir", "Anneau de flammes",                   0, 1},
     {"Maitre du savoir", "Ecrasement des bras",                 0, 0},
     {"Maitre du savoir", "Injonction",                          0, 0},
