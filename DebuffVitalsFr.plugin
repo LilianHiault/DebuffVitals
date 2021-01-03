@@ -2,9 +2,9 @@
 <Plugin>
   <Information>
     <Name>DebuffVitalsFr</Name>
-    <Author>Lylian</Author>
+    <Author>Grimmerthan</Author>
     <Version>v0.3.0-beta</Version>
-    <Description>DebuffVitalsFr permet de traquer plusieurs cibles et de garder un oeil sur leur moral, puissance, corruptions et effets spécifiques.</Description>
+    <Description>DebuffVitalsFr permet de traquer plusieurs cibles et de garder un oeil sur leur moral, puissance, corruptions et effets spécifiques. Version française traduite par Lylian.</Description>
   </Information>
   <Package>Lylian.DebuffVitalsFr.Main</Package>
   <Configuration Apartment="DebuffVitals" />
